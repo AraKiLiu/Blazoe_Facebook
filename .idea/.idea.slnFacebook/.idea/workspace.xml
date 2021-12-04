@@ -4,10 +4,11 @@
     <projectFile profileName="IIS Express">prjFacebook/prjFacebook.csproj</projectFile>
     <projectFile profileName="prjFacebook">prjFacebook/prjFacebook.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="修改tailwind.config.js，確保每次執行npm run buildcss都可以正確生成">
-      <change beforePath="$PROJECT_DIR$/prjFacebook/prjFacebook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/prjFacebook.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="在檔案_Host.cshml中引入css" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +30,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -72,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638605422728</updated>
-      <workItem from="1638605427998" duration="629000" />
+      <workItem from="1638605427998" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="創建Blazor專案">
       <created>1638605492813</created>
@@ -137,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638606045619</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="編輯專案檔">
+      <created>1638606074838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638606074838</updated>
+    </task>
+    <task id="LOCAL-00011" summary="在檔案_Host.cshml中引入css">
+      <created>1638606111904</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1638606111904</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +188,8 @@
     <MESSAGE value="在wwwroor/css中加入app.css，並加入tailwind配置" />
     <MESSAGE value="修改package.json" />
     <MESSAGE value="修改tailwind.config.js，確保每次執行npm run buildcss都可以正確生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改tailwind.config.js，確保每次執行npm run buildcss都可以正確生成" />
+    <MESSAGE value="編輯專案檔" />
+    <MESSAGE value="在檔案_Host.cshml中引入css" />
+    <option name="LAST_COMMIT_MESSAGE" value="在檔案_Host.cshml中引入css" />
   </component>
 </project>
