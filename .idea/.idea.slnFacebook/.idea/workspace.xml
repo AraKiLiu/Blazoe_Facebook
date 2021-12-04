@@ -5,8 +5,8 @@
     <projectFile profileName="prjFacebook">prjFacebook/prjFacebook.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="修改package.json">
-      <change beforePath="$PROJECT_DIR$/prjFacebook/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/tailwind.config.js" afterDir="false" />
+    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="修改tailwind.config.js，確保每次執行npm run buildcss都可以正確生成">
+      <change beforePath="$PROJECT_DIR$/prjFacebook/prjFacebook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/prjFacebook.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638605422728</updated>
-      <workItem from="1638605427998" duration="598000" />
+      <workItem from="1638605427998" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="創建Blazor專案">
       <created>1638605492813</created>
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638605999955</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改tailwind.config.js，確保每次執行npm run buildcss都可以正確生成">
+      <created>1638606045619</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638606045619</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +168,7 @@
     <MESSAGE value="使用Tailwind cli新增配置檔tailwind.config.js，並修改內容" />
     <MESSAGE value="在wwwroor/css中加入app.css，並加入tailwind配置" />
     <MESSAGE value="修改package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改package.json" />
+    <MESSAGE value="修改tailwind.config.js，確保每次執行npm run buildcss都可以正確生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改tailwind.config.js，確保每次執行npm run buildcss都可以正確生成" />
   </component>
 </project>
