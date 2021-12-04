@@ -1,0 +1,39 @@
+@using prjFacebook.Models
+
+<!-- 左側資訊欄 -->
+<div class="hidden sticky top-main-span max-w-[360px] w-full h-full pl-4 lg:block">
+    @foreach (var option in Options)
+    {
+        <div class="flex items-center justify-items-center w-full p-2 mb-1 rounded hover:bg-fb-input cursor-pointer">
+            <div class="w-[32px] overflow-hidden rounded-full mr-4">
+                <img src="@option.img" alt=""/>
+            </div>
+            <p class="text-white text-[.9rem]">@option.name</p>
+        </div>
+    }
+</div>
+
+
+@code {
+    public List<Option> Options { get; set; } = new List<Option>();
+
+    protected override void OnInitialized()
+    {
+        Options = new List<Option>()
+        {
+            new Option { name = "布魯斯", img = "https://bruce-fe-fb.web.app/image/avator.png" },
+            new Option { name = "活動", img = "https://bruce-fe-fb.web.app/image/left/activity.svg" },
+            new Option { name = "天氣", img = "https://bruce-fe-fb.web.app/image/left/cloudy.png" },
+            new Option { name = "災害應變中心", img = "https://bruce-fe-fb.web.app/image/left/dynamic.svg" },
+            new Option { name = "新冠病毒資訊中心", img = "https://bruce-fe-fb.web.app/image/left/facemask.svg" },
+            new Option { name = "社團", img = "https://bruce-fe-fb.web.app/image/left/friend.svg" },
+            new Option { name = "企業管理平台", img = "https://bruce-fe-fb.web.app/image/left/job.png" },
+            new Option { name = "Messenger", img = "https://bruce-fe-fb.web.app/image/left/messenger.svg" },
+            new Option { name = "近期廣告動態", img = "https://bruce-fe-fb.web.app/image/left/pay.png" },
+            new Option { name = "朋友名單", img = "https://bruce-fe-fb.web.app/image/left/sale.png" },
+            new Option { name = "最愛", img = "https://bruce-fe-fb.web.app/image/left/star.svg" },
+            new Option { name = "Marketplace", img = "https://bruce-fe-fb.web.app/image/left/store.svg" },
+            new Option { name = "Watch", img = "https://bruce-fe-fb.web.app/image/left/watchingTv.svg" },
+        };
+    }
+}
