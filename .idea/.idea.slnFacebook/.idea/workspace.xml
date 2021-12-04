@@ -8,8 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="刪除不必要的CSS">
-      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/_Host.cshtml" afterDir="false" />
+    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="刪除CSS Link">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.slnFacebook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.slnFacebook/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638605422728</updated>
-      <workItem from="1638605427998" duration="1439000" />
+      <workItem from="1638605427998" duration="1656000" />
     </task>
     <task id="LOCAL-00001" summary="創建Blazor專案">
       <created>1638605492813</created>
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638606811583</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="刪除CSS Link">
+      <created>1638607057868</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1638607057868</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +208,7 @@
     <MESSAGE value="編輯專案檔" />
     <MESSAGE value="在檔案_Host.cshml中引入css" />
     <MESSAGE value="刪除不必要的CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="刪除不必要的CSS" />
+    <MESSAGE value="刪除CSS Link" />
+    <option name="LAST_COMMIT_MESSAGE" value="刪除CSS Link" />
   </component>
 </project>
