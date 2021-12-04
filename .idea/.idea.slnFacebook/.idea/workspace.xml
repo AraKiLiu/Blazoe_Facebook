@@ -8,7 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="在檔案_Host.cshml中引入css" />
+    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="刪除不必要的CSS">
+      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/_Host.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638605422728</updated>
-      <workItem from="1638605427998" duration="1082000" />
+      <workItem from="1638605427998" duration="1439000" />
     </task>
     <task id="LOCAL-00001" summary="創建Blazor專案">
       <created>1638605492813</created>
@@ -156,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638606111904</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="刪除不必要的CSS">
+      <created>1638606811583</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1638606811583</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +199,7 @@
     <MESSAGE value="修改tailwind.config.js，確保每次執行npm run buildcss都可以正確生成" />
     <MESSAGE value="編輯專案檔" />
     <MESSAGE value="在檔案_Host.cshml中引入css" />
-    <option name="LAST_COMMIT_MESSAGE" value="在檔案_Host.cshml中引入css" />
+    <MESSAGE value="刪除不必要的CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="刪除不必要的CSS" />
   </component>
 </project>
