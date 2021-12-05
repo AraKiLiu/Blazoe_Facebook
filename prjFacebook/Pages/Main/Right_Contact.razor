@@ -1,8 +1,41 @@
+@using prjFacebook.Models
+
 <!-- 右側聯絡人 -->
-<div class="hidden sticky top-main-span max-w-[360px] w-full h-full lg:block">
-    <p class="w-full bg-white">右側聯絡人</p>
+<div id="right-block" class="hidden sticky top-main-span max-w-[360px] w-full h-full lg:block">
+    <p class="mb-2 text-lg text-gray-400">聯絡人</p>
+    @foreach(var person in Persons)
+    {
+        <div class="flex items-center justify-items-center w-full py-2 px-1 rounded hover:bg-fb-input cursor-pointer">
+            <div class="w-[45px]">
+                <div class="relative w-[32px] cursor-pointer">
+                    <div class="overflow-hidden rounded-full">
+                        <img src="https://bruce-fe-fb.web.app/image/avator.png" alt="" />
+                    </div>
+                    <div class="w-[8px] h-[8px] rounded-full bg-green-500 absolute bottom-0 right-0 ring-gray-900 ring"></div>
+                </div>
+            </div>
+            <p class="text-white text-[.9rem]">@person.name</p>
+        </div>
+    }
 </div>
 
 @code {
-    
+    public List<Person> Persons { get; set; } = new List<Person>();
+
+    protected override void OnInitialized()
+    {
+        Persons = new List<Person>()
+        {
+            new Person { name = "郭靖" },
+            new Person { name = "黃蓉" },
+            new Person { name = "楊過" },
+            new Person { name = "小龍女" },
+            new Person { name = "洪七公" },
+            new Person { name = "歐陽鋒" },
+            new Person { name = "黃藥師" },
+            new Person { name = "一燈大師" },
+            new Person { name = "周伯通" },
+            new Person { name = "李莫愁" },
+        };
+    }
 }
