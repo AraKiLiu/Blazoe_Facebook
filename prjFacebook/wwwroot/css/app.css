@@ -24,6 +24,10 @@
     .story-image {
         @apply object-cover w-full h-full transition-transform duration-500 transform hover:scale-105;
     }
+
+    .card {
+        @apply rounded-lg mt-4 px-4 py-3 bg-fb-card;
+    }
 }
 
 /*  Chrome, Safari and Opera */
