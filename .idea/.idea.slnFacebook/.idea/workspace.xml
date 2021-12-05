@@ -8,10 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="加入左側資訊欄">
-      <change afterPath="$PROJECT_DIR$/prjFacebook/Models/Person.cs" afterDir="false" />
+    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="加入右側聯絡欄">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.slnFacebook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.slnFacebook/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/Main/Dynamic_Wall.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/Main/Dynamic_Wall.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/Main/Left_Information.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/Main/Left_Information.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/Main/Right_Contact.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/Main/Right_Contact.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/wwwroot/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prjFacebook/wwwroot/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/wwwroot/css/app.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638605422728</updated>
-      <workItem from="1638605427998" duration="16266000" />
+      <workItem from="1638605427998" duration="21662000" />
     </task>
     <task id="LOCAL-00001" summary="創建Blazor專案">
       <created>1638605492813</created>
@@ -199,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638635813534</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="加入右側聯絡欄">
+      <created>1638670843716</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1638670843716</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +247,7 @@
     <MESSAGE value="配置會使用到的顏色" />
     <MESSAGE value="加入Header區塊" />
     <MESSAGE value="加入左側資訊欄" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入左側資訊欄" />
+    <MESSAGE value="加入右側聯絡欄" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入右側聯絡欄" />
   </component>
 </project>
