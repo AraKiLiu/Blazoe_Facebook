@@ -8,14 +8,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="加入限時動態">
+    <list default="true" id="130df7b3-2d86-4206-a546-c84400c8d47e" name="Changes" comment="加入主畫面包廂欄和刪除不必要的page">
+      <change afterPath="$PROJECT_DIR$/prjFacebook/Shared/Header/Logo.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjFacebook/Shared/Header/Search.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.slnFacebook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.slnFacebook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/Counter.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/FetchData.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/Main/Dynamic_Wall.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/Main/Dynamic_Wall.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/Main/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/Main/Main.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/Main/Left_Information.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/Main/Left_Information.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prjFacebook/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/wwwroot/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/Main/Dynamic_Wall.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/Main/Bulletin/Bulletin.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/Main/Left_Information.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/Main/Menu/Menu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/Main/Main.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/Main/Main.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/Main/Right_Contact.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/Main/Liaison/Liaison.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Pages/_Host.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/Shared/Header/Header.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Shared/Header/Header.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/Shared/Header/Header_left.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjFacebook/Shared/Header/Header_right.razor" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/Shared/Header/Menu.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prjFacebook/wwwroot/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/prjFacebook/wwwroot/css/app.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/liuchichung/RiderProjects/slnFacebook/prjFacebook/Pages/Main/Dynamic_Wall.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/liuchichung/RiderProjects/slnFacebook/prjFacebook/Pages/_Host.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21oROXGaOJpbRTMMxyheZFUeMk0" />
@@ -89,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638605422728</updated>
-      <workItem from="1638605427998" duration="23435000" />
+      <workItem from="1638605427998" duration="28874000" />
     </task>
     <task id="LOCAL-00001" summary="創建Blazor專案">
       <created>1638605492813</created>
@@ -217,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638702877496</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="加入主畫面包廂欄和刪除不必要的page">
+      <created>1638706853434</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1638706853434</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +270,7 @@
     <MESSAGE value="加入左側資訊欄" />
     <MESSAGE value="加入右側聯絡欄" />
     <MESSAGE value="加入限時動態" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入限時動態" />
+    <MESSAGE value="加入主畫面包廂欄和刪除不必要的page" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入主畫面包廂欄和刪除不必要的page" />
   </component>
 </project>
