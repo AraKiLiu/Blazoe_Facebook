@@ -1,16 +1,16 @@
 <!-- header right -->
 <div class="flex items-center relative">
-  <button class="popover-btn" @onclick="TogglePlus">
-    <img src="https://bruce-fe-fb.web.app/image/plus.svg" />
+  <button class="popover-btn" @onclick="@(() => IsPlus=true)" @onfocusout="@(() => IsPlus=false)">
+    <img src="https://bruce-fe-fb.web.app/image/plus.svg" alt=""/>
   </button>
-  <button class="popover-btn" @onclick="ToggleMsg">
-    <img src="https://bruce-fe-fb.web.app/image/messenger.svg" />
+  <button class="popover-btn" @onclick="@(() => IsMsg=true)" @onfocusout="@(() => IsMsg=false)">
+    <img src="https://bruce-fe-fb.web.app/image/messenger.svg" alt=""/>
   </button>
-  <button class="popover-btn" @onclick="ToggleNotification">
-    <img src="https://bruce-fe-fb.web.app/image/bell.svg" />
+  <button class="popover-btn" @onclick="@(() => IsNotification=true)" @onfocusout="@(() => IsNotification=false)">
+    <img src="https://bruce-fe-fb.web.app/image/bell.svg" alt=""/>
   </button>
-  <button class="popover-btn" @onclick="ToggleMore">
-    <img src="https://bruce-fe-fb.web.app/image/down.svg" />
+  <button class="popover-btn" @onclick="@(() => IsMore=true)" @onfocusout="@(() => IsMore=false)">
+    <img src="https://bruce-fe-fb.web.app/image/down.svg" alt=""/>
   </button>
   <!-- 下拉選單 1 plus -->
   <div class="popover-panel @(IsPlus ? "" : "hidden")">
@@ -92,46 +92,11 @@
 @code {
 
   [Parameter]
-  public bool IsPlus { get; set; } = false;
-  
-  private void TogglePlus()
-  {
-    IsPlus = !IsPlus;
-    IsMsg = false;
-    IsNotification = false;
-    IsMore = false;
-  }
-  
+  public bool IsPlus { get; set; }
   [Parameter]
-  public bool IsMsg { get; set; } = false;
-  
-  private void ToggleMsg()
-  {
-    IsPlus = false;
-    IsMsg = !IsMsg;
-    IsNotification = false;
-    IsMore = false;
-  }
-  
+  public bool IsMsg { get; set; }
   [Parameter]
-  public bool IsNotification { get; set; } = false;
-  
-  private void ToggleNotification()
-  {
-    IsPlus = false;
-    IsMsg = false;
-    IsNotification = !IsNotification;
-    IsMore = false;
-  }
-  
+  public bool IsNotification { get; set; }
   [Parameter]
-  public bool IsMore { get; set; } = false;
-  
-  private void ToggleMore()
-  {
-    IsPlus = false;
-    IsMsg = false;
-    IsNotification = false;
-    IsMore = !IsMore;
-  }
+  public bool IsMore { get; set; }
 }
